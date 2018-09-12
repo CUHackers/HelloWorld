@@ -1,6 +1,72 @@
 /*
 * @Author: Charlie Gallentine
-* @Date:   2018-09-11 21:06:12
+* @Date:   2018-07-25 21:30:26
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-09-11 21:06:13
+* @Last Modified time: 2018-09-11 21:28:02
 */
+
+/* MOBILE SITE */
+h1 {
+	font-size: 36px;
+}
+
+img {
+	width: 100%;
+}
+
+.logo {
+	width: 90%;
+}
+
+.subcontent {
+	text-align: center;
+}
+
+#details {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+}
+
+/* Screens 720px and up */
+@media screen and (min-width: 600px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-style: italic;
+	}
+
+	img {
+		width: 90%;
+		max-width: 75vh;
+	}
+
+	#details {
+		align-items: top;
+		height: 100vh;
+	}
+
+}
+
+/* Screens 720px and up */
+@media screen and (min-width: 900px) {
+	h1 {
+		font-size: 72px;
+	}
+
+	img {
+		width: 100%;
+		max-width: none;
+	}
+
+	.logo {
+		width: 50%;
+	}
+
+	#details {
+		align-items: center;
+		flex-direction: row;
+	}
+}
