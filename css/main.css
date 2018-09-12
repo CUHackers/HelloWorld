@@ -2,12 +2,13 @@
 * @Author: Charlie Gallentine
 * @Date:   2018-07-25 21:30:26
 * @Last Modified by:   Charlie Gallentine
-* @Last Modified time: 2018-09-11 21:28:02
+* @Last Modified time: 2018-09-12 08:36:42
 */
 
 /* MOBILE SITE */
 h1 {
 	font-size: 36px;
+	font-style: italic;
 }
 
 img {
@@ -15,7 +16,7 @@ img {
 }
 
 .logo {
-	width: 90%;
+	width: 100%;
 }
 
 .subcontent {
@@ -34,17 +35,13 @@ img {
 		font-size: 48px;
 	}
 
-	h2 {
-		font-style: italic;
-	}
-
 	img {
 		width: 90%;
 		max-width: 75vh;
 	}
 
 	#details {
-		align-items: top;
+		align-items: center;
 		height: 100vh;
 	}
 
@@ -53,7 +50,7 @@ img {
 /* Screens 720px and up */
 @media screen and (min-width: 900px) {
 	h1 {
-		font-size: 72px;
+		font-size: 64px;
 	}
 
 	img {
