@@ -1,8 +1,8 @@
 /*
 * @Author: Charlie Gallentine, Ayush Petigara
 * @Date:   2018-07-25 21:30:26
-* @Last Modified by:   Ayush Petigara
-* @Last Modified time: 2018-09-19 13:47:09
+* @Last Modified by:   Charlie Gallentine
+* @Last Modified time: 2018-09-26 10:33:59
 */
 
 /* MOBILE SITE */
@@ -40,7 +40,8 @@ img {
 }
 
 .pre-reg {
-	margin: 1em auto 1em 1.2em;
+	margin: 1em auto;
+	width: 33%;
 }
 
 .underline-red {
@@ -121,7 +122,8 @@ img {
 	}
 
 	.pre-reg {
-		margin: 1em auto 1em 0;
+		margin: 1em auto;
+		width: 25%;
 	}
 
 	#home {
@@ -155,15 +157,15 @@ img {
 
 	.main-container {
 		text-align: left;
-		width: 50%;
+		width: 75%;
 	}
 
-	.secondary-container {
+/*	.secondary-container {
 		text-align: left;
 		margin: 0 0 0 39px;
 		width: 39%;
 	}
-
+*/
 	.subcontent {
 		align-items: center;
 		flex-direction: row;
@@ -171,12 +173,14 @@ img {
 	}
 
 	.des {
+		font-size: 1.5em;
 		text-align: left;
 		margin-left: 0;
 	}
 
 	.pre-reg {
 		margin: 1em auto 1em 0;
+		max-width: 100px;
 	}
 
 	#home {
