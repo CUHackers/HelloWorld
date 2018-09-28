@@ -1,63 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Charlie Gallentine, Ayush Petigara">
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Ayush Petigara, Charlie Gallentine">
+    <!-- Tab title and icon -->
+    <title>CUhackit HelloWorld</title>
+    <link rel="icon" href="resources/RGB_logo_bug.png">
+    <!-- New font! -->
+    <link rel="stylesheet" href="https://webfonts.fontstand.com/WF-024682-e892056c2f2d30507bf3290339937e35.css" type="text/css">
 
-  <!--meta http-equiv="refresh" content="1"-->
-  <!-- Tab title and icon -->
-  <title>CUhackit HelloWorld</title>
-
-  <!-- Custom styles -->
-  <link rel="stylesheet" href="css/main.css">
-  <!-- Favicon -->
-  <link rel="icon" href="./images/CUhackit_RGB2.png">
-  <link rel="stylesheet" href="https://webfonts.fontstand.com/WF-024682-e892056c2f2d30507bf3290339937e35.css" type="text/css">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 </head>
 
 <body id="top">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112858061-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-112858061-1');
+    </script>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="resources/RGB_logo_bug.png" height="35" width="45"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">CUhackit</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdxINFOkY06d1lzb-FCSGG6HCrw9pZ1FuJ0eEVSAc7wVQTsdA/viewform">Register Now</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./faqs.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<section id="home">
-  <div class="subcontent">
-    <div class="main-container">
-      <p class ="des" id="team-working">What's out team working on <strong>right now?</strong></p>
-      <div class="logo-date">
-        <img class="logo" src="./images/HelloWorld_RGB_bug.svg" alt="Helloworld"/>
-        <p class="des">A creative problem-solving marathon for freshmen. <br/> Saturday, October 13, 8 AM – 8 PM</p>
+    <!-- This div holds the information -->
+    <div class="container primary">
+      <div class="secondary">
+        <img class="logo" src="resources/HelloWorld_color_logo.svg" alt="HelloWorld"/>
+        <div class="content">
+          <p>8 AM–8 PM, October 13, 2018 at Clemson University</p>
+          <p>CUhackit’s <b>freshman-only</b> hackathon</p>
+          <div class="link-reg">
+            <p class="underline-red">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxINFOkY06d1lzb-FCSGG6HCrw9pZ1FuJ0eEVSAc7wVQTsdA/viewform" class="reg">Register Now</a>
+              <span></span></p>
+          </div>
+          <br>
+          <div class="link-mentor">
+            <p><a href="#" class="mentor"></a><span class="underline-blue">Mentor</span></p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="secondary-container">
-      <div class="link-container">
-        <!-- <a class="link" href="#">Pre-register</a> -->
-        <!-- Same functionality as the top one but it just looks prettier -->
-        <p class="pre-reg"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdxINFOkY06d1lzb-FCSGG6HCrw9pZ1FuJ0eEVSAc7wVQTsdA/viewform" style="text-decoration: none;">Register</a> <span></span> </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="subcontent">
-    <div class="main-container">
-      <div class="logo-date">
-        <img class="logo" src="./images/CUhackit_RGB_bug.svg" alt="CUhackit"/>
-        <p class="des">Jan 26-27, 2019 at Clemson University</p>
-      </div>
-    </div>
-
-    <div class="secondary-container">
-      <!-- <div class="link-container">
-        <a class="link underline-red" href="#">Pre-apply</a>
-        <a class="link underline-purple" href="#">Partner</a>
-        <a class="link underline-blue" href="#">Mentor</a>
-      </div> -->
-      <p class="des mcs">(More Coming Soon)</p>
-    </div>
-  </div>
-</section>
-
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
-
